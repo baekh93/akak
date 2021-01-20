@@ -10,7 +10,6 @@ module.exports = {
         main: ["babel-polyfill", './src/js/main-page/index.js'],
         map_service :  [
             "babel-polyfill"
-            , './src/js/map-service/index.js'
           ]
     },
     output: {

@@ -2,8 +2,6 @@ import '../../../../css/context-menu.css'
 import Handlebars from "handlebars";
 import _ from 'lodash'
 import store from "../redux/store";
-import * as action from "../../cmm/redux/action/map-service/action";
-
 let currentState = {};
 
 export default function contextMenu (param) {
