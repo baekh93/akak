@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b9da2bf6-ffac-4043-b74d-c69f9c2e61aa" name="Default Changelist" comment="메모 삭제 기능추가">
+      <change beforePath="$PROJECT_DIR$/src/js/cmm/app-config/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/cmm/app-config/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/main-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/main-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/map-service.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/map-service.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1f4lWnXTTWWQJOWUeNLuIhBJJ6V" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="oracle" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../jhPlatform/client" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\UnionPlatform\client\src\libs\union" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\UnionPlatform\client\src\libs" />
+      <recent name="D:\UnionPlatform\client\src\js\map-service\utility" />
+      <recent name="D:\UnionPlatform\client\src\js\map-service\tools" />
+      <recent name="D:\UnionPlatform\client\src\libs\union" />
+      <recent name="D:\UnionPlatform\client\css" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.dev">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="npm.dev" />
+      <item itemvalue="npm.build" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\keonho\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b9da2bf6-ffac-4043-b74d-c69f9c2e61aa" name="Default Changelist" comment="" />
+      <created>1595485279800</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595485279800</updated>
+      <workItem from="1595485281039" duration="11480000" />
+      <workItem from="1595917886560" duration="9002000" />
+      <workItem from="1595988917191" duration="21471000" />
+      <workItem from="1596090029994" duration="12117000" />
+      <workItem from="1596157593494" duration="183009000" />
+      <workItem from="1597194672773" duration="8349000" />
+      <workItem from="1597280633801" duration="16250000" />
+      <workItem from="1597393147717" duration="3674000" />
+      <workItem from="1597713129906" duration="92880000" />
+      <workItem from="1598234558730" duration="1301000" />
+      <workItem from="1598578532328" duration="1428000" />
+      <workItem from="1604478991077" duration="132000" />
+      <workItem from="1611126983740" duration="4684000" />
+    </task>
+    <task id="LOCAL-00001" summary="수정사항 수정">
+      <created>1595825540246</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1595825540246</updated>
+    </task>
+    <task id="LOCAL-00002" summary="수정사항수정&#10;- UI: x,y 좌표출력, bottomView, rightView 수정 및 열고 닫기 가능&#10; rigthView UI는 보수이력, 사진 개발시 추가 수정필요&#10;- 시설물 클릭시 레이어 가시화">
+      <created>1596083526892</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1596083526892</updated>
+    </task>
+    <task id="LOCAL-00003" summary="라이브러리 파일 변경&#10;ol.js, ol.css 추가, Union.min 변경, license.js 추가&#10;축척바,좌표표기, 그리기, 측정 수정사항 수정">
+      <created>1596603963784</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1596603963784</updated>
+    </task>
+    <task id="LOCAL-00004" summary="라이브러리 파일 변경&#10;                         ol.js, ol.css 추가, Union.min 변경, license.js 추가&#10;                         축척바,좌표표기, 그리기, 측정 수정사항 수정">
+      <created>1596621078704</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1596621078704</updated>
+    </task>
+    <task id="LOCAL-00005" summary="항공슬라이드 적용">
+      <created>1596708574359</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1596708574359</updated>
+    </task>
+    <task id="LOCAL-00006" summary="bottomViedataTable 적용">
+      <created>1597038469393</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1597038469393</updated>
+    </task>
+    <task id="LOCAL-00007" summary="bottomViedataTable 적용&#10;union-draw 오류 수정&#10;UI css 수정">
+      <created>1597126707160</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1597126707160</updated>
+    </task>
+    <task id="LOCAL-00008" summary="정보보기 기능 및 유아이 개선">
+      <created>1597307749481</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1597307749481</updated>
+    </task>
+    <task id="LOCAL-00009" summary="위치이동 수정">
+      <created>1597757173729</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1597757173729</updated>
+    </task>
+    <task id="LOCAL-00010" summary="메모 삭제 기능추가">
+      <created>1597891464179</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1597891464179</updated>
+    </task>
+    <task id="LOCAL-00011" summary="메모 삭제 기능추가">
+      <created>1598235241984</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1598235241985</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="수정사항 수정" />
+    <MESSAGE value="수정사항수정&#10;- UI: x,y 좌표출력, bottomView, rightView 수정 및 열고 닫기 가능&#10; rigthView UI는 보수이력, 사진 개발시 추가 수정필요&#10;- 시설물 클릭시 레이어 가시화" />
+    <MESSAGE value="라이브러리 파일 변경&#10;ol.js, ol.css 추가, Union.min 변경, license.js 추가&#10;축척바,좌표표기, 그리기, 측정 수정사항 수정" />
+    <MESSAGE value="라이브러리 파일 변경&#10;                         ol.js, ol.css 추가, Union.min 변경, license.js 추가&#10;                         축척바,좌표표기, 그리기, 측정 수정사항 수정" />
+    <MESSAGE value="항공슬라이드 적용" />
+    <MESSAGE value="bottomViedataTable 적용" />
+    <MESSAGE value="bottomViedataTable 적용&#10;union-draw 오류 수정&#10;UI css 수정" />
+    <MESSAGE value="정보보기 기능 및 유아이 개선" />
+    <MESSAGE value="위치이동 수정" />
+    <MESSAGE value="분할기능 추가" />
+    <MESSAGE value="분할추가" />
+    <MESSAGE value="메모 삭제 기능추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="메모 삭제 기능추가" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2610" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1611132755617">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2610" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1611132755617" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1604479126025">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604479126025" />
+    <state width="1114" height="534" key="GridCell.Tab.0.bottom" timestamp="1611133525945">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1247" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604479129512" />
+    <state width="1114" height="534" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1611133525945" />
+    <state width="1114" height="534" key="GridCell.Tab.0.center" timestamp="1611133525944">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1247" height="274" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604479129512" />
+    <state width="1114" height="534" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1611133525944" />
+    <state width="1114" height="534" key="GridCell.Tab.0.left" timestamp="1611133525944">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1247" height="274" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604479129512" />
+    <state width="1114" height="534" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1611133525944" />
+    <state width="1114" height="534" key="GridCell.Tab.0.right" timestamp="1611133525944">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1247" height="274" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604479129512" />
+    <state width="1114" height="534" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1611133525944" />
+    <state width="1246" height="274" key="GridCell.Tab.1.bottom" timestamp="1611129566196">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1247" height="274" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604479129512" />
+    <state width="1246" height="274" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1611129566196" />
+    <state width="1246" height="274" key="GridCell.Tab.1.center" timestamp="1611129566196">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1247" height="274" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604479129512" />
+    <state width="1246" height="274" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1611129566196" />
+    <state width="1246" height="274" key="GridCell.Tab.1.left" timestamp="1611129566196">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1247" height="274" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604479129512" />
+    <state width="1246" height="274" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1611129566196" />
+    <state width="1246" height="274" key="GridCell.Tab.1.right" timestamp="1611129566196">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1247" height="274" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604479129512" />
+    <state width="1246" height="274" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1611129566196" />
+    <state width="1246" height="274" key="GridCell.Tab.2.bottom" timestamp="1611129566196">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1247" height="274" key="GridCell.Tab.2.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604479129512" />
+    <state width="1246" height="274" key="GridCell.Tab.2.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1611129566196" />
+    <state width="1246" height="274" key="GridCell.Tab.2.center" timestamp="1611129566196">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1247" height="274" key="GridCell.Tab.2.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604479129512" />
+    <state width="1246" height="274" key="GridCell.Tab.2.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1611129566196" />
+    <state width="1246" height="274" key="GridCell.Tab.2.left" timestamp="1611129566196">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1247" height="274" key="GridCell.Tab.2.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604479129512" />
+    <state width="1246" height="274" key="GridCell.Tab.2.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1611129566196" />
+    <state width="1246" height="274" key="GridCell.Tab.2.right" timestamp="1611129566196">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1247" height="274" key="GridCell.Tab.2.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604479129512" />
+    <state width="1246" height="274" key="GridCell.Tab.2.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1611129566196" />
+    <state width="1246" height="274" key="GridCell.Tab.3.bottom" timestamp="1611129566197">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1247" height="274" key="GridCell.Tab.3.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604479129513" />
+    <state width="1246" height="274" key="GridCell.Tab.3.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1611129566197" />
+    <state width="1246" height="274" key="GridCell.Tab.3.center" timestamp="1611129566197">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1247" height="274" key="GridCell.Tab.3.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604479129513" />
+    <state width="1246" height="274" key="GridCell.Tab.3.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1611129566197" />
+    <state width="1246" height="274" key="GridCell.Tab.3.left" timestamp="1611129566196">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1247" height="274" key="GridCell.Tab.3.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604479129512" />
+    <state width="1246" height="274" key="GridCell.Tab.3.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1611129566196" />
+    <state width="1246" height="274" key="GridCell.Tab.3.right" timestamp="1611129566197">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1247" height="274" key="GridCell.Tab.3.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604479129513" />
+    <state width="1246" height="274" key="GridCell.Tab.3.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1611129566197" />
+    <state x="2233" y="136" key="SettingsEditor" timestamp="1611129874626">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2233" y="136" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1611129874626" />
+    <state x="2588" y="252" width="584" height="536" key="find.popup" timestamp="1611133456083">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2588" y="252" width="584" height="536" key="find.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1611133456083" />
+    <state x="2552" y="203" key="new project wizard" timestamp="1611129106227">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2552" y="203" key="new project wizard/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1611129106227" />
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1611133375125">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1611133375125" />
+    <state x="2743" y="354" key="svn.propertyDialog" timestamp="1611129766307">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2743" y="354" key="svn.propertyDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1611129766307" />
+  </component>
+</project>

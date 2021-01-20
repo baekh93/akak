@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans:400');
+@import url('https://fonts.googleapis.com/css?family=Do+Hyeon|Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.container-wrap {
+    width: 100%;
+    height: 100%;
+    font-family: "Nanum Gothic", "Apple SD Gothic Neo", "Open sans", "Meiryo", serif;
+    font-size: 12px;
+    background: url(../image/background/bg_main_L1.jpg) center no-repeat;
+}
+.container-wrap ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.container-wrap li {
+    margin: 5px 20px 5px 20px;
+    padding: 0 0 0 0;
+    border : 0;
+    float: left;
+}
+.container-wrap li > a > span {
+    color: #e8ecf1 !important;
+    font-size: 17px;
+    line-height: 17px;
+}
+.container-wrap li > a > span:hover {
+    color: #fff !important;
+    animation-name: fadeIn;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+}
+
+.container-wrap li > a {
+    text-decoration: none;
+}
+
+.container-wrap H2 {
+    font-weight: bold;
+    color: white;
+    font-family: '맑은 고딕','맑은고딕','malgun gothic','malgungothic';
+}
+
+.head-btn {
+    padding: 3px 12px 4px 12px;
+    font-size: 15px;
+    color: white !important;
+    border:1px solid white !important;
+}
+
+.main-head-container {
+    width: 60vw;
+    display: inline-block;
+}
+
+.main-head-content {
+    align-items: center; height: 85px
+}
+.main-loginBox {
+    margin-left: 100px;
+}
+
+#mainHead {
+    width: 100%;
+    height: 85px;
+    background: url(../image/background/bg_gnb.jpg) top center repeat-y;
+    background-size: cover;
+    text-align: center;
+}
+
+#mainBody {
+    width: 100%;
+    height: 30%;
+}
+
+
+.main-body-title {
+    font-family: 'Noto L';
+    letter-spacing: -0.15em !important;
+    font-size: 63px;
+    color: #174167;
+}
+#mainFooter {
+    width: 100%;
+    height: 80px;
+    background-color: #191b1d;
+    text-align: center;
+    bottom: 0px;
+    position: absolute;
+}
+
+#mainBody {
+    text-align: center;
+}
+#mainBody > div {
+    display: inline-block
+}
+
+#mainBodyList {
+    display: flex;
+}
+
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.main-icon-wrap {
+    padding: 15px 12px 0px;
+}
+
+#mainFooter span {
+    font-size: 16px;
+    font-family: 'Noto R';
+    color: #ccc;
+    letter-spacing: -0.1em;
+}
+
+.footer-highlight {
+    color:#e1a04a !important;
+    -webkit-animation-iteration-count: infinite ;
+    -webkit-animation-name: flash;
+    animation-duration: 2s;
+}

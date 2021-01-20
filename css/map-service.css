@@ -1,0 +1,1147 @@
+@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans:400');
+@import url('https://fonts.googleapis.com/css?family=Do+Hyeon|Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap');
+
+body {
+    margin: 0;
+}
+
+
+/****************지도서비스 스타일 시작*************************/
+#mapView {
+    display: block;
+}
+
+#mapView .mapDiv {
+    /*overflow: hidden;*/
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 310px;
+    right: 0;
+}
+
+.subMap-wrap-1-1 {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    border-right: 3px solid #5fd272;
+}
+
+.subMap-wrap-1-2 {
+    position: absolute;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    border: none;
+}
+
+.subMap-wrap-2-1 {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    border-right: 3px solid #5fd272;
+}
+
+.subMap-wrap-2-2 {
+    position: absolute;
+    left: 50%;
+    width: 50%;
+    height: 50%;
+    border: none;
+}
+
+.subMap-wrap-2-3 {
+    position: absolute;
+    top: 50%;
+    width: 50%;
+    height: 50%;
+    border-right: 3px solid #5fd272;
+    border-top: 3px solid #5fd272;
+}
+
+.subMap-wrap-2-4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    height: 50%;
+    border: none;
+    border-top: 3px solid #5fd272;
+}
+
+#mapView .header-wrap {
+    width: 310px;
+    height: 100vh;
+    z-index: 12;
+}
+
+#mapView .mapSearch {
+    display: inline-block;
+    /*    font-family: "Noto Sans KR", serif;*/
+}
+
+#mapView .mapSearch .Header {
+    /*overflow: hidden;*/
+    float: left;
+    width: 310px;
+    height: 180px;
+    background-color: #258fff;
+}
+
+#mapView .mapSearch .Header .title {
+    margin: 10px;
+    font-size: 25px;
+    color: #fff;
+}
+
+#mapView .mapSearch .Header .title a {
+    color: #fff;
+}
+
+#mapView .mapSearch .Header .title a:hover {
+    text-decoration: none;
+}
+
+#mapView .mapSearch .Header ul span {
+    color: #fff;
+}
+
+#mapView .mapSearch .Header .header-body {
+    margin: 20px 10px;
+    width: 280px;
+}
+
+#mapView .mapSearch .Header .header-nav {
+    margin: 0px 10px 0px 10px;
+}
+
+#mapView .search-body {
+    width: 310px;
+    /*margin-top: -8px;*/
+    height: 100%;
+    overflow: auto;
+}
+
+/****************지도서비스 스타일 끝*************************/
+
+/*****************시설물관리 스타일 시작***********************/
+
+/**좌측 시설물 목록**/
+.menuList-container {
+    display: none;
+}
+
+.menuList-container #menuListDiv {
+    position: absolute;
+    top: 48px;
+    left: 23px;
+    padding: 12px 10px 10px 10px;
+    background: #fff;
+    z-index: 100;
+    box-shadow: 1px 1px 1px 1px #535252;
+}
+
+.menuList-container #menuListDiv .facil-menu-div {
+    width: 160px;
+    border-left: 1px solid #E6E6E6;
+    padding: 0px 5px 0px 5px;
+}
+
+.menuList-container #menuListDiv .facil-menu-div-start {
+    border-left: 0px;
+}
+
+
+.menuList-container #menuListDiv .facil-menu-div ul {
+    list-style: none;
+    /*padding-inline-start: 10px;*/
+    padding-left: 10px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.menuList-container #menuListDiv .facil-menu-div li {
+    text-align: left;
+    margin-bottom: 6px;
+}
+
+.menuList-container #menuListDiv .facil-menu-div li:hover {
+    font-weight: bold;
+    color: #545dcb;
+}
+
+.menuList-container #menuListDiv .facil-menu-div span {
+    font-weight: bold;
+    color: #545dcb;
+    font-size: 15px;
+    font-family: 'Noto M';
+}
+
+#menuListDiv .mapView-title {
+    padding-left: 5px;
+}
+
+
+/**하단 대장 메뉴 **/
+.list-manager-book {
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    background-color: #ffffff;
+    /*overflow-x: hidden;*/
+    transition: 0.3s;
+    display: flex;
+    border-top: 1px solid #eee;
+    z-index: 11;
+}
+
+.list-manager-book p {
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+
+.list-manager-book .bottom-left {
+    margin-left: 310px;
+    height: 100%;
+    border-right: 1px solid #eee;
+}
+
+.list-manager-book .bottomSearchTab {
+    margin-bottom: 10px;
+}
+
+.list-manager-book #bottomSearchTab tr td input[type='text'], #bottomSearchTab tr td select {
+    width: 100%;
+}
+
+.list-manager-book #bottomSearchTab tr td .lange-inputbox {
+    width: 105px !important;
+}
+
+
+.list-manager-book .bottom-left-Search {
+    width: 390px;
+    height: 500px;
+    padding: 10px 15px 10px 15px;
+}
+
+.list-manager-book .bottom-table-view {
+    /*padding: 10px 15px 0px 15px;*/
+}
+
+/*ie */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .list-manager-book .bottom-paging-wrap {
+        width: 100%;
+        bottom: -7px;
+        left: 8%;
+    }
+
+    .list-manager-book .bottom-search-wrap {
+        left: 260px;
+        bottom: 17px;
+    }
+
+    .ele-absolute {
+        position: absolute;
+    }
+}
+
+.list-manager-book .bottom-search-wrap {
+    margin-right: 10px;
+}
+
+#bottomSearchTab td, #bottomSearchTab th {
+    margin-bottom: 1px;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+    font-size: 13px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.gray-area {
+    background-color: #f1f4f6;
+    padding: 6px 8px 6px 8px;
+    height: 255px;
+}
+
+.search-input {
+    border-radius: .25rem 0rem 0rem 0.25rem;
+    border-right: none;
+}
+
+.search-btn {
+    border-radius: 0rem .25rem 0.25rem 0rem;
+    border-left: none;
+    background-color: white;
+    color: #8f8f8f;
+}
+
+.tb-no-margin tr td input {
+    margin: 0px !important;
+}
+
+.tb-padding-sm th, .tb-padding-sm td {
+    padding: .2rem;
+}
+
+.table-wrap table th, .table-wrap table td {
+    height: 38px;
+}
+
+.table-wrap table th {
+    width: 80px;
+}
+
+#searchFeatureList_wrapper .col-sm-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#searchFeatureList_wrapper .table {
+    margin-bottom: 0px;
+}
+
+#searchFeatureList_wrapper .table tr.selected {
+    background-color: aliceblue !important;
+}
+
+#searchFeatureList_wrapper .table tr {
+}
+
+#detailFeatureTable_wrapper .col-sm-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.bottom-table-wrap #table-manager-book td {
+    cursor: pointer;
+}
+
+.bottom-table-wrap .col-sm-12 {
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 3px;
+}
+
+.bottom-table-wrap .table {
+    margin-bottom: 0px;
+}
+
+.bottom-table-wrap .table tr.selected {
+    background-color: aliceblue !important;
+}
+
+.bottom-table-wrap .table tr.odd,
+.bottom-table-wrap .table tr.even {
+    background-color: white;
+}
+
+.list-manager-book .grid {
+    display: grid;
+}
+
+.bottom-table-wrap {
+    height: 75%;
+}
+
+.bottom-table-wrap th td {
+    border: 1px solid #e9ecef;
+    text-align: center;
+}
+
+.mg-left-auto {
+    margin-left: auto;
+}
+
+.mg-right-auto {
+    margin-right: auto;
+}
+
+.mg-top-auto {
+    margin-top: auto;
+}
+
+.mg-bottom-auto {
+    margin-bottom: auto;
+}
+
+
+/**우측 상세 정보**/
+.detail-manager-book {
+    height: 440px;
+    position: fixed;
+    z-index: 11;
+    top: 55px;
+    right: 0;
+    background-color: #ffffff;
+    /* overflow-x: hidden;*/
+    transition: 0.3s;
+    border-radius: 12px 0 0 12px;
+}
+
+.detail-manager-book > .card-body {
+    width: 485px;
+}
+
+.detail-manager-book > .card-body > .rightView-top {
+    height: 50px;
+    padding: 8px 12px 8px 15px;
+    font-size: 18px;
+    font-weight: bold;
+    background: #0fa3d5;
+    width: 100%;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(17, 20, 57, 0.3) !important;
+    border-radius: 12px 0 0 0;
+}
+
+.detail-manager-book > .card-body > .rightView-top > div:first-child {
+    margin-right: auto;
+    float: left;
+}
+
+.detail-manager-book > .card-body > .rightView-top > div:last-child {
+    margin-right: auto;
+    float: right;
+}
+
+.detail-manager-book > .card-body {
+    padding: 0px;
+}
+
+.detail-manager-book .table-wrap {
+    overflow-x: hidden;
+    height: 300px;
+}
+
+.detail-manager-book .table-wrap::-webkit-scrollbar {
+    width: 8px;
+}
+
+.detail-manager-book .table-wrap::-webkit-scrollbar-thumb {
+    background-color: #6c757d;
+    border-radius: 8px;
+    background-clip: padding-box;
+    border: 1px solid transparent;
+}
+
+.detail-manager-book .table-wrap::-webkit-scrollbar-track {
+    background-color: #b8b8b8;
+    border-radius: 8px;
+    box-shadow: inset 0px 0px 2px white;
+}
+
+.detail-manager-book > .card-body > .rightView-body {
+    padding: 15px 20px 15px 20px;
+}
+
+.btn-wrap ul {
+    position: relative;
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.btn-wrap li {
+    padding-left: 0;
+    float: left;
+}
+
+.btn-wrap li.on > a {
+    font-family: 'Noto M' !important;
+    color: #565c65 !important;
+    background: #ffffff !important;
+    border: 1px solid #313a46 !important;
+    border-bottom: 1px solid #fff !important;
+}
+
+.btn-wrap li > a {
+    position: relative;
+    z-index: 101;
+    float: left;
+    display: block;
+    width: 80px;
+    margin: 0 !important;
+    padding: 10px 8px;
+    font-family: 'Noto R' !important;
+    font-weight: normal !important;
+    color: #696e73 !important;
+    font-size: 14px;
+    line-height: 1;
+    text-align: center;
+    letter-spacing: -0.09em;
+    background: #e6e9ec !important;
+    border: 1px solid #dde2e6 !important;
+    border-bottom: 1px solid #313a46 !important;
+    border-radius: 2px 2px 0 0;
+}
+
+.btn-group button > i {
+    pointer-events: none;
+}
+
+.right-tab-button {
+    border-radius: 5px 0 0 5px;
+    top: 40%;
+    left: -16px;
+    padding: 7px 4px 7px 5px;
+    background-color: white;
+    position: absolute;
+    border-style: inherit;
+    border-color: black;
+    cursor: pointer;
+}
+
+.bottom-tab-button {
+    border-radius: 5px 5px 0 0;
+    left: 50%;
+    top: -18px;
+    height: 18px;
+    width: 40px;
+    background-color: white;
+    position: absolute;
+    cursor: pointer;
+    text-align: center;
+}
+
+.bottom-tab-button > svg {
+    display: inline-block;
+}
+
+.rightView-body .detail-wrap {
+    padding-top: 10px;
+    border-top: 1px solid #313a46;
+    position: relative;
+    top: -2.5px;
+    z-index: 100;
+}
+
+.rightView-body .title-div {
+    margin-top: 15px;
+    font-family: 'Noto M' !important;
+    font-weight: normal !important;
+    font-size: 16px;
+    line-height: 34px;
+    letter-spacing: -0.1em;
+    color: #333;
+    border-bottom: 1px solid #313a46;
+}
+
+
+.rightView-body .display-none {
+    display: none;
+}
+
+.rightView-body .display-block {
+    display: block;
+}
+
+.detail-wrap th, .detail-wrap td {
+    padding: 0.30rem !important;
+}
+
+.mouse-tooltip {
+    position: relative;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    color: white;
+    padding: 4px 8px;
+    opacity: 0.7;
+    white-space: nowrap;
+    user-select: none;
+}
+
+.map-context-menu {
+    border-radius: 5px;
+    z-index: 1000;
+    position: absolute;
+    background-color: #eeeeee;
+    /*border: 1px solid black;*/
+    padding: 2px;
+    width: 150px;
+    height: 100px;
+}
+
+.map-context-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.map-context-menu li {
+    margin: 5px 20px 5px 20px;
+    padding: 0 0 0 0;
+    border: 0;
+    float: left;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.border-shadow {
+    box-shadow: 0 0.46875rem 2.1875rem rgba(4, 9, 20, 0.03), 0 0.9375rem 1.40625rem rgba(4, 9, 20, 0.03), 0 0.25rem 0.53125rem rgba(4, 9, 20, 0.05), 0 0.125rem 0.1875rem rgba(4, 9, 20, 0.03);
+}
+
+/*****************시설물관리 스타일 끝***********************/
+
+/**************** basemap gallerty ********************/
+.mapselector-wrap {
+    top: 15px;
+    right: 267px;
+    width: 150px;
+    height: 40px;
+    background: #ffffff;
+    position: absolute !important;
+    border-radius: 6px;
+    z-index: 3;
+    font-size: 13px;
+    font-family: "Noto Sans KR", serif;
+    font-weight: bold;
+}
+
+.splitMap-wrap {
+    top: 15px;
+    right: 174px;
+    width: 79px;
+    height: 39px;
+    background: #ffffff;
+    position: absolute !important;
+    border-radius: 6px;
+    z-index: 3;
+    font-size: 13px;
+    font-family: "Noto Sans KR", serif;
+    font-weight: bold;
+    padding: 1px 1px 2px 1px;
+}
+
+.SubMapSelector {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    height: 40px;
+    width: 105px;
+    z-index: 10;
+    padding-top: 4px;
+    padding-left: 7px;
+    background-color: #fff;
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .mapselector-wrap {
+        width: 172px;
+    }
+}
+
+.mapselector-wrap .tab-wrap, .splitMap-wrap .tab-wrap {
+    margin: 2px;
+}
+
+.container-wrap .submap-dropdown {
+    position: absolute !important;
+    display: none;
+    padding: 10px;
+    width: 164px;
+    transform: translate3d(0px, 32px, 0px);
+    top: 0px;
+    left: 0px;
+    will-change: transform;
+    background: #fff;
+}
+
+.mapselector-wrap .nomalMap {
+    display: none;
+    padding: 10px;
+    position: absolute;
+    top: 41px;
+    width: 150px;
+    height: 145px;
+    background: #fff;
+}
+
+.mapselector-wrap .airMap {
+    display: none;
+    padding: 10px;
+    position: absolute;
+    top: 41px;
+    width: 164px;
+    height: fit-content;
+    background: #fff;
+
+}
+
+.mapselector-wrap .show {
+    display: block;
+}
+
+.splitMap-wrap .splitMap {
+    display: none;
+    padding: 5px;
+    position: absolute;
+    top: 41px;
+    width: 86px;
+    height: fit-content;
+}
+
+.splitMap-wrap .show {
+    display: block;
+}
+
+#nomalMapGallery > div > label {
+    cursor: pointer;
+}
+
+#airMapGallery > div > label {
+    cursor: pointer;
+}
+
+/******************basemap gallerty 끝***************/
+
+/******************지도제어 툴바*************************/
+/*
+.map-toolbar {
+    top: 60px;
+    position: absolute !important;
+    width: 55px;
+    height: fit-content;
+    right: 20px;
+    z-index: 1;
+    padding-top: 3px;
+
+}
+
+.map-toolbar > div {
+    position: relative;
+    text-align: center;
+}
+
+.map-toolbar [data-original-title] {
+    font-size: 20px;
+    width: 46px;
+}
+*/
+
+
+/******************지도제어 툴바 끝***********************/
+
+.fancytree-container {
+    border: 0px !important;
+}
+
+span.fancytree-title:focus {
+    outline: -webkit-focus-ring-color auto 0px;
+}
+
+/*********************툴팁 공통 ***********************/
+[data-original-title]:hover {
+    position: relative;
+}
+
+[data-original-title]:hover:after {
+    background-color: #000000;
+    background-color: rgba(0, 0, 0, 0.8);
+
+    -webkit-box-shadow: 0px 0px 3px 1px rgba(50, 50, 50, 0.4);
+    -moz-box-shadow: 0px 0px 3px 1px rgba(50, 50, 50, 0.4);
+    box-shadow: 0px 0px 3px 1px rgba(50, 50, 50, 0.4);
+
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+
+    color: #FFFFFF;
+    font-size: 12px;
+    content: attr(data-original-title);
+
+    /*margin-bottom: 10px;*/
+    top: 110%;
+    left: -9px;
+    padding: 7px 6px;
+    position: absolute;
+    width: 65px;
+    max-width: 300px;
+    word-wrap: break-word;
+
+    z-index: 9999;
+}
+
+
+/*********************툴팁 공통 끝*********************/
+
+/******************** 검색 결과*******************/
+#toc-0 {
+    display: none;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+#toc-0 .list-group-item-heading {
+    font-weight: bold;
+}
+
+#toc-0 .list-group-item:hover {
+    background: #f0f0f0;
+}
+
+#toc-0 .list-group-item.active {
+    background: #f0f0f0;
+}
+
+#toc-0 .list-group-item p, #toc-0 .list-group-item span {
+    margin: 0 !important;
+}
+
+#toc-0 .list-group-item span {
+    color: #0ba360;
+}
+
+#previewBox {
+}
+#tab-basemap {
+    padding-left: 2px;
+}
+
+#tab-basemap, #tab-airmap {
+    padding-top: 2px;
+}
+
+.slider-wrapper input[type=range] {
+    width: 100%;
+    margin: 0px;
+    background-color: transparent;
+    -webkit-appearance: none;
+}
+
+.slider-wrapper input[type=range]:focus {
+    outline: none;
+}
+
+.slider-wrapper input[type=range]::-webkit-slider-runnable-track {
+    background: rgba(255, 255, 255, 0);
+    border: 0;
+    width: 100%;
+    height: 25.6px;
+    cursor: pointer;
+}
+
+.slider-wrapper input[type=range]::-webkit-slider-thumb {
+    margin: 2.4px 0px 0px 0px;
+    width: 17px;
+    height: 21px;
+    background: rgba(0, 60, 136, .7);
+    border-radius: 0.1rem;
+    cursor: pointer;
+    -webkit-appearance: none;
+}
+
+.slider-wrapper input[type=range]:focus::-webkit-slider-runnable-track {
+    background: rgba(255, 255, 255, 0);
+}
+
+.slider-wrapper input[type=range]::-moz-range-track {
+    background: rgba(255, 255, 255, 0);
+    border: 0;
+    width: 100%;
+    height: 25.6px;
+    cursor: pointer;
+}
+
+.slider-wrapper input[type=range]::-moz-range-thumb {
+    margin: 2.4px 0px 0px 0px;
+    width: 17px;
+    height: 21px;
+    background: rgba(0, 60, 136, .7);
+    border-radius: 0.1rem;
+    cursor: pointer;
+}
+
+.slider-wrapper input[type=range]::-ms-track {
+    background: transparent;
+    border-color: transparent;
+    border-width: 0px;
+    color: transparent;
+    width: 100%;
+    height: 25.6px;
+    cursor: pointer;
+}
+
+.slider-wrapper input[type=range]::-ms-fill-lower {
+    background: rgba(255, 255, 255, 0);
+    border: 1px;
+}
+
+.slider-wrapper input[type=range]::-ms-fill-upper {
+    background: rgba(255, 255, 255, 0);
+    border: 1px;
+}
+
+.slider-wrapper input[type=range]::-ms-thumb {
+    margin: 2.4px 0px 0px 0px;
+    width: 17px;
+    height: 21px;
+    background: rgba(0, 60, 136, .7);
+    border-radius: 0.1rem;
+    cursor: pointer;
+    /*Needed to keep the Edge thumb centred*/
+}
+
+.slider-wrapper input[type=range]:focus::-ms-fill-lower {
+    background: rgba(255, 255, 255, .3);
+}
+
+.slider-wrapper input[type=range]:focus::-ms-fill-upper {
+    background: rgba(255, 255, 255, .3);
+}
+
+/*TODO: Use one of the selectors from https://stackoverflow.com/a/20541859/7077589 and figure out
+how to remove the virtical space around the range input in IE*/
+@supports (-ms-ime-align:auto) {
+    /* Pre-Chromium Edge only styles, selector taken from hhttps://stackoverflow.com/a/32202953/7077589 */
+    .slider-wrapper input[type=range] {
+        margin: 0;
+        /*Edge starts the margin from the thumb, not the track as other browsers do*/
+    }
+}
+
+.slider-wrapper {
+    display: inline-block;
+    width: 28px;
+    height: 255px;
+    padding: 0;
+}
+
+.slider-wrapper input {
+    position: absolute;
+    top: 77px;
+    width: 196px !important;
+    height: 24px;
+    margin: 0;
+    transform-origin: 75px 75px;
+    transform: rotate(-90deg);
+}
+
+.flight-slider-wrapper input {
+    width: 200px !important;
+}
+
+#scaleBar {
+    position: absolute;
+    right: 10px;
+    bottom: 36px;
+}
+
+.control-zoom-slider {
+    top: 32px;
+    left: 3px;
+    height: 200px;
+    width: 25px;
+}
+
+.control-zoom-slider-thumb {
+    position: relative;
+    height: 10px !important;
+    right: 1px;
+}
+
+.control-zoom-out {
+    margin-top: 210px !important;
+}
+
+i .ico-home {
+    width: 100px;
+    height: 100px;
+    background: url("../image/common/icon-home.png") no-repeat;
+}
+.ico-home {
+    width: 100px;
+    height: 100px;
+    background: url("../image/common/icon-home.png") no-repeat;
+}
+/**/
+.flight-slider-wrapper input[type=range] {
+    width: 100%;
+    margin:6px 4px 0 0px;
+    background-color: transparent;
+    -webkit-appearance: none;
+}
+
+.flight-slider-wrapper input[type=range]:focus {
+    outline: none;
+}
+
+.flight-slider-wrapper input[type=range]::-webkit-slider-runnable-track {
+    background: rgba(255, 255, 255, 0.7);
+    border: 0;
+    width: 100%;
+    height: 22px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.flight-slider-wrapper input[type=range]::-webkit-slider-thumb {
+    width: 20px;
+    height: 23px;
+    background: #2199d4;
+    border: 1.5px solid rgba(0, 28, 0, 0.57);
+    border-radius: 4px;
+    cursor: pointer;
+    -webkit-appearance: none;
+}
+
+.flight-slider-wrapper input[type=range]:focus::-webkit-slider-runnable-track {
+    background: #fffff0;
+}
+
+.flight-slider-wrapper input[type=range]::-moz-range-track {
+    background: rgba(255, 255, 241, 0.7);;
+    border: 0;
+    width: 100%;
+    height: 32px;
+    cursor: pointer;
+}
+
+.flight-slider-wrapper input[type=range]::-moz-range-thumb {
+    width: 32px;
+    height: 32px;
+    background: #2199d4;
+    border: 1.5px solid rgba(0, 28, 0, 0.57);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.flight-slider-wrapper input[type=range]::-ms-track {
+    background: transparent;
+    border-color: transparent;
+    border-width: 0.4px 0;
+    color: transparent;
+    width: 100%;
+    height: 32px;
+    cursor: pointer;
+}
+
+.flight-slider-wrapper input[type=range]::-ms-fill-lower {
+    background: #ffffbd;
+    border: 0;
+}
+
+.flight-slider-wrapper input[type=range]::-ms-fill-upper {
+    background: rgba(255, 255, 214, 0.7);;
+    border: 0;
+}
+
+.flight-slider-wrapper input[type=range]::-ms-thumb {
+    width: 32px;
+    height: 32px;
+    background: #2199d4;
+    border: 1.5px solid rgba(0, 28, 0, 0.57);
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 0px;
+    /*Needed to keep the Edge thumb centred*/
+}
+
+.flight-slider-wrapper input[type=range]:focus::-ms-fill-lower {
+    background: rgba(255, 255, 214, 0.7);;
+}
+
+.flight-slider-wrapper input[type=range]:focus::-ms-fill-upper {
+    background: #fffff0;
+}
+
+/*TODO: Use one of the selectors from https://stackoverflow.com/a/20541859/7077589 and figure out
+how to remove the virtical space around the range input in IE*/
+@supports (-ms-ime-align:auto) {
+    /* Pre-Chromium Edge only styles, selector taken from hhttps://stackoverflow.com/a/32202953/7077589 */
+    .flight-slider-wrapper input[type=range] {
+        margin: 0;
+        /*Edge starts the margin from the thumb, not the track as other browsers do*/
+    }
+}
+
+
+#flightImage {
+    position: absolute;
+    bottom: 4px;
+    right: 540px;
+}
+
+#flight-active {
+    padding: 0px 2px 3px 2px;
+    width: 24px;
+    height: 24px;
+    margin-top: 6px;
+}
+
+.bottom-panner {
+    position: absolute;
+    bottom: 0;
+    background-color: #606162;
+    width: 100%;
+    height: 30px;
+    left: 311px;
+    left: 0;
+}
+
+#scaleBox {
+    /*position: absolute;*/
+    /*bottom: 15px;*/
+    /*right: 20px;*/
+}
+
+.scale-wrap {
+    position: absolute;
+    bottom: 2px;
+    right: 20px;
+    /*width: 650px;*/
+    /*height: 47px;*/
+    /*padding: 0 18px 0 18px;*/
+    /*border-radius: 5px;*/
+    /*background-color: rgba(26, 21, 21, 0.24);*/
+}
+
+ .map-pointer-x {
+    font-weight: 600;
+    width: 149px;
+    height: 23px;margin-left:5px;
+}
+
+.map-pointer-y {
+    font-weight: 600;
+    width: 150px;
+    height: 23px;
+    margin-left:5px;
+}
+
+.scale-wrap select {
+    font-weight: 600;
+}
+
+.compass-wrap {
+    background: url('../image/map-servie/Compass.png') no-repeat;
+    width: 26px;
+    height: 26px;
+    align-self: center;
+}
+
+/******************** 검색 결과 끝*****************/
+
+
+.body-contents .btn-export {
+    height: 35px;
+    width: 120px;
+}
+
+#position-tabs {
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+#facilSearch  table  {
+    border-top : none;
+}

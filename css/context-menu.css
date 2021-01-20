@@ -1,0 +1,10 @@
+
+
+.context-menu {
+    padding: 0 !important;
+}
+
+
+.context-menu .item {
+    margin-right: 12px;
+}
